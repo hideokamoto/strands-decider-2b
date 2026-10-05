@@ -1,0 +1,23 @@
+{
+    "state": "We run a subscription business on Stripe. Since Monday, payouts to our bank account have been failing with a generic error, and our finance team cannot reconcile invoices. Support tickets are piling up and two enterprise customers asked for refunds. We already re-entered the bank details and checked that the account is open. We run a subscription business on Stripe. Since Monday, payouts to our bank account have been failing with a generic error, and our finance team cannot reconcile invoices. Support tickets are piling up and two enterprise customers asked for refunds. We already re-entered the bank details and checked that the account is open. We run a subscription business on Stripe. Since Monday, payouts to our bank account have been failing with a generic error, and our finance team cannot reconcile invoices. Support tickets are piling up and two enterprise customers asked for refunds. We already re-entered the bank details and checked that the account is open.",
+    "questions": {
+      "is_urgent": {
+        "type": "noul",
+        "instructions": "Does this convey urgency?"
+      },
+      "team": {
+        "type": "choice",
+        "instructions": "Which team should handle this?",
+        "criteria": {
+          "billing": "money movement, payouts, invoices",
+          "technical": "bugs and API errors",
+          "sales": "pricing and plans"
+        }
+      },
+      "needs_human": {
+        "type": "noul",
+        "instructions": "Should a human take over this case now?"
+      }
+    }
+  }
+  

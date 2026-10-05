@@ -1,0 +1,28 @@
+{
+    "state": "Help! My payouts have been failing for 3 days! ",
+    "questions": {
+      "is_urgent": {
+        "type": "noul",
+        "instructions": "Does this convey urgency?"
+      },
+      "team": {
+        "type": "choice",
+        "instructions": "Which team should handle this?",
+        "criteria": {
+          "billing": null,
+          "sales": null,
+          "retail": null
+        }
+      },
+      "frustration": {
+        "type": "score",
+        "instructions": "How frustrated is the writer?",
+        "criteria": [
+          "calm",
+          "frustrated",
+          "depressed"
+        ]
+      }
+    }
+  }
+  
